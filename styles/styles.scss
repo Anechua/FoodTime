@@ -5,6 +5,7 @@
   font-style: normal;
   font-display: swap;
 }
+
 @font-face {
   font-family: "Poppins";
   src: url("../fonts/Poppins-Medium.woff2") format("woff2"), url("../fonts/Poppins-Medium.woff") format("woff");
@@ -12,6 +13,7 @@
   font-style: normal;
   font-display: swap;
 }
+
 @font-face {
   font-family: "Poppins";
   src: url("../fonts/Poppins-SemiBold.woff2") format("woff2"), url("../fonts/Poppins-SemiBold.woff") format("woff");
@@ -19,6 +21,7 @@
   font-style: normal;
   font-display: swap;
 }
+
 body {
   margin: 0;
   background-color: #D7E1CC;
@@ -64,6 +67,10 @@ body {
 
 .page-header__button {
   margin-inline-end: 23px;
+}
+
+.nav {
+
 }
 
 .nav__list {
@@ -151,7 +158,7 @@ body {
   font-weight: 700;
   font-size: 16px;
   line-height: 26px;
-  position: absolute;
+  position:absolute;
   top: -5px;
   right: -5px;
 }
