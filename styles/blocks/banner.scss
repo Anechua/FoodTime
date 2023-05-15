@@ -1,0 +1,36 @@
+.banner {
+  background-color: #D7E1CC;
+}
+
+.banner__container {
+  width: 1234px;
+  margin-inline: auto;
+}
+
+.banner__title {
+  font-family: "Merienda", sans-serif;
+  font-size: 65px;
+  line-height: 85px;
+  color: #396C03;
+}
+
+.banner__title::after {
+  content: ".";
+  color: #FF8B00;
+}
+
+.banner__description {
+  font-size: 24px;
+  line-height: 34px;
+  font-weight: 600;
+}
+
+.banner__input {
+  background-color: rgba(255, 255, 255, 0.3);
+  border: 2px solid rgba(57, 108, 3, 0.3);
+  border-radius: 35px;
+  font-size: 22px;
+  line-height: 37px;
+  padding: 16px 225px 16px 74px;
+
+}

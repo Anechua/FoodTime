@@ -1,3 +1,39 @@
+.banner {
+  background-color: #D7E1CC;
+}
+
+.banner__container {
+  width: 1234px;
+  margin-inline: auto;
+}
+
+.banner__title {
+  font-family: "Merienda", sans-serif;
+  font-size: 65px;
+  line-height: 85px;
+  color: #396C03;
+}
+
+.banner__title::after {
+  content: ".";
+  color: #FF8B00;
+}
+
+.banner__description {
+  font-size: 24px;
+  line-height: 34px;
+  font-weight: 600;
+}
+
+.banner__input {
+  background-color: rgba(255, 255, 255, 0.3);
+  border: 2px solid rgba(57, 108, 3, 0.3);
+  border-radius: 35px;
+  font-size: 22px;
+  line-height: 37px;
+  padding: 16px 225px 16px 74px;
+}
+
 @font-face {
   font-family: "Poppins";
   src: url("../fonts/Poppins-Regular.woff2") format("woff2"), url("../fonts/Poppins-Regular.woff") format("woff");
@@ -19,9 +55,16 @@
   font-style: normal;
   font-display: swap;
 }
+@font-face {
+  font-family: "Merienda";
+  src: url("../fonts/Merienda-Bold.woff2") format("woff2"), url("../fonts/Merienda-Bold.woff") format("woff");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
 body {
   margin: 0;
-  background-color: #D7E1CC;
+  background-color: #E3EADB;
   color: #676767;
   font-family: "Poppins", sans-serif;
   font-size: 18px;
@@ -45,6 +88,7 @@ body {
 .page-header {
   padding-block: 17px;
   border-bottom: 1px solid rgba(63, 63, 63, 0.2);
+  background-color: #D7E1CC;
 }
 
 .page-header__container {

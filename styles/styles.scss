@@ -1,3 +1,5 @@
+@import "blocks/banner.scss";
+
 @font-face {
   font-family: "Poppins";
   src: url("../fonts/Poppins-Regular.woff2") format("woff2"), url("../fonts/Poppins-Regular.woff") format("woff");
@@ -22,9 +24,17 @@
   font-display: swap;
 }
 
+@font-face {
+  font-family: "Merienda";
+  src: url("../fonts/Merienda-Bold.woff2") format("woff2"), url("../fonts/Merienda-Bold.woff") format("woff");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
 body {
   margin: 0;
-  background-color: #D7E1CC;
+  background-color: #E3EADB;
   color: #676767;
   font-family: "Poppins", sans-serif;
   font-size: 18px;
@@ -48,6 +58,7 @@ body {
 .page-header {
   padding-block: 17px;
   border-bottom: 1px solid rgba(63, 63, 63, 0.2);
+  background-color: #D7E1CC;
 }
 
 .page-header__container {
@@ -67,10 +78,6 @@ body {
 
 .page-header__button {
   margin-inline-end: 23px;
-}
-
-.nav {
-
 }
 
 .nav__list {
@@ -162,3 +169,4 @@ body {
   top: -5px;
   right: -5px;
 }
+

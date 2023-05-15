@@ -5,7 +5,7 @@ import browser from 'browser-sync';
 const sass = gulpSass(dartSass);
 
 export const createStyles = () => {
-    return gulp.src('./styles/**/*.scss')
+    return gulp.src('./styles/styles.scss')
     .pipe(sass().on('error', sass.logError))
     .pipe(gulp.dest('./styles'))
     .pipe(browser.stream());
