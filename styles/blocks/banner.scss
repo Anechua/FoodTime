@@ -5,6 +5,40 @@
 .banner__container {
   width: 1234px;
   margin-inline: auto;
+  position: relative;
+}
+
+.banner__container::before,
+.banner__container::after {
+  content: "";
+  display: block;
+  width: 288px;
+  height: 288px;
+  background-image: url("../images/leaf.png");
+  background-repeat: no-repeat;
+  background-size: 288px;
+  position: absolute;
+}
+
+.banner__container::before {
+  top: 0;
+  left: -98px;
+  transform: rotate(25deg);
+  filter: blur(1.5px);
+}
+
+.banner__container::after {
+  top: 45px;
+  right: -100px;
+  z-index: 1;
+  transform: rotate(15deg);
+  filter: blur(2.5px);
+}
+
+
+.banner__content {
+  width: 714px;
+  padding-block: 224px 139px;
 }
 
 .banner__title {
@@ -12,6 +46,7 @@
   font-size: 65px;
   line-height: 85px;
   color: #396C03;
+  margin-block: 0 11px;
 }
 
 .banner__title::after {
@@ -23,6 +58,7 @@
   font-size: 24px;
   line-height: 34px;
   font-weight: 600;
+  margin-block: 0 27px;
 }
 
 .banner__search {
@@ -83,6 +119,10 @@
   border-radius: 9px;
   padding: 24px 28px 18px 28px;
   box-sizing: border-box;
+  position: absolute;
+  top: 54px;
+  right: 83px;
+  z-index: 3;
 }
 
 .banner__number {
@@ -109,4 +149,16 @@
   font-size: 21px;
   line-height: 27px;
   color: #D7E1CC;
+}
+
+.banner__plate {
+  width: 534px;
+  height: 528px;
+  background-image: url("../images/plate.png");
+  background-repeat: no-repeat;
+  background-size: 534px 528px;
+  position: absolute;
+  top: 132px;
+  right: -20px;
+  z-index: 2;
 }
