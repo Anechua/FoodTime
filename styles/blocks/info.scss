@@ -1,0 +1,33 @@
+.info__container {
+  margin: 50px auto;
+  width: 1234px;
+  display: flex;
+  gap: 10px;
+}
+.info__content {
+  width: 567px;
+  margin-top: 96px;
+}
+
+.info__decoration {
+  background-image: url("../images/delivery__bike.png");
+  background-size: 751px 501px;
+  background-repeat: no-repeat;
+  flex-grow: 1;
+  min-height: 501px;
+}
+
+.info__title {
+  font-family: "Merienda", sans-serif;
+  color: #396C03;
+  font-size: 50px;
+  line-height: 65px;
+  margin-block: 0 10px;
+}
+
+.info__description {
+  font-size: 18px;
+  line-height: 29px;
+  color: #676767;
+  margin-block: 0 14px;
+}
