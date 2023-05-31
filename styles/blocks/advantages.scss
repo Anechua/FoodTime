@@ -1,0 +1,54 @@
+.advantages {
+  padding-block: 105px;
+}
+
+.advantages__container {
+  width: 1234px;
+  margin-inline: auto;
+}
+
+.advantages__list {
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 26px;
+  padding: 0;
+  margin: 0;
+}
+
+.advantages__item {
+  box-sizing: border-box;
+  width: 394px;
+  min-height: 388px;
+  padding: 172px 47px 38px 54px;
+  background-position: 60px 54px;
+  background-repeat: no-repeat;
+}
+
+.advantages__item--main {
+  background-color: rgba(57, 108, 3, 0.05);
+  border-radius: 15px;
+}
+
+.advantages__title {
+  margin-block: 0 7px;
+  font-size: 30px;
+  line-height: 42px;
+  font-weight: 600;
+}
+
+.advantages__description {
+  margin: 0;
+}
+
+.advantages__restaurants {
+  background-image: url("../images/spoon_fork.svg");
+}
+
+.advantages__ordering {
+  background-image: url("../images/order.svg");
+}
+
+.advantages__delivery {
+  background-image: url("../images/clocks.svg");
+}
